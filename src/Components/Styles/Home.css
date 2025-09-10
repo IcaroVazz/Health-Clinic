@@ -1,0 +1,119 @@
+#home {
+    display: flex;
+    position: relative;
+    margin-top: 3rem;
+    min-height: calc(85vh - 101.59px);
+    scroll-margin-top: 96px;
+}
+
+#cta {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 3%;
+}
+
+#cta .title {
+    font-size: 3.6rem;
+    width: 12em;
+    color: #1d1d1d;
+    line-height: 1.1;
+}
+
+.title span {
+    color: #f83c27;
+}
+
+#cta .description {
+    font-size: 0.9rem;
+}
+
+#cta_buttons {
+    display: flex;
+    font-size: 0.8em;
+    gap: 24px;
+}
+
+#cta_buttons a {
+    color: #fff9ea;
+    text-decoration: none;
+}
+
+#banner {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+    z-index: 2;
+}
+
+#banner img {
+    width: 300px;
+    height: 230px;
+    margin-top: 60px;
+    border-radius: 40px;
+
+}
+
+.shape {
+    width: 21rem;
+    height: 20rem;
+    top: 40px;
+    right: 50px;
+    z-index: 1;
+    border-radius: 40% 30% 10% 20%;
+}
+
+.shape2 {
+    width: 2.6rem;
+    height: 2.4rem;
+    top: 20px;
+    right: 380px;
+    border-radius: 100% 100% 100% 100%;
+}
+
+.shape3 {
+    width: 2rem;
+    height: 2rem;
+    top: 370px;
+    right: 240px;
+    border-radius: 100% 100% 100% 100%;
+}
+
+.shape,
+.shape2,
+.shape3 {
+    position: absolute;
+    background-color: #ff5b49;
+    z-index: 1;
+    animation: slideInRight 0.8s ease-out forwards;
+
+}
+
+@media screen and (max-width: 1170px) {
+    #home {
+        min-height: calc(85vh - 101.59px);
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+    }
+
+    #banner,
+    #banner img,
+    #home #shapes {
+        display: none;
+    }
+
+    #cta {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #cta .title {
+        font-size: 1.6em;
+    }
+}
