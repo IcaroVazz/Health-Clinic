@@ -203,7 +203,7 @@ const Home = () => {
                                 Na Clínica Bem-Estar, seu cuidado é nossa prioridade. Há mais de uma década, nossa equipe transforma o atendimento médico em uma experiência acolhedora e confiável. Utilizamos tecnologia de ponta e contamos com profissionais dedicados, garantindo diagnósticos precisos e um serviço de excelência.
                             </p>
                             <p className="description">
-                                Fundada com a missão de oferecer saúde de alta qualidade à comunidade, nossa clínica é um espaço onde a empatia e o bem-estar se encontram. Estamos comprometidos com a sua saúde e com a construção de uma relação de confiança a cada visita.
+                                Fundada com a missão de oferecer uma saúde de alta qualidade à comunidade, nossa clínica é um espaço onde a empatia e o bem-estar se encontram. Estamos comprometidos com a sua saúde e com a construção de uma relação de confiança a cada visita.
                             </p>
                         </div>
                         <div id="perfil_image">
@@ -232,7 +232,7 @@ const Home = () => {
                             <Dish
                                 image="https://placehold.co/300x300/F6620C/FFF?text=Dermato+Avançada"
                                 title="Dermato Avançada"
-                                description="Clínica de dermatologia com os mais modernos tratamentos para pele e cabelo."
+                                description="Clínica de dermatologia com os mais modernos tratamentos para pele e cabelo!"
                             />
                         </div>
 
