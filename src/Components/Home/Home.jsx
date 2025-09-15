@@ -179,7 +179,7 @@ const Home = () => {
                                 <a href="" className="btn-default" target="_blank">Agendar Consulta</a>
                             </div>
                             <div className="social-midia-buttons">
-                                <a href="https://wa.me/5571992240721" target="_blank">
+                                <a href="https://wa.me/5571992440721" target="_blank">
                                     <FontAwesomeIcon icon={faWhatsapp} />
                                 </a>
                                 <a href="https://www.instagram.com/icaromvz_" target="_blank">
@@ -215,22 +215,22 @@ const Home = () => {
                         <h3 className="section-subtitle">Clínicas mais Indicadas</h3>
                         <div id="dishes">
                             <Dish
-                                image="https://placehold.co/300x300/F6620C/FFF?text=Clínica+Bem-Estar"
+                                image="https://maxmaq.com.br/wp-content/uploads/2020/02/imagem-montar-clinica-1024x539-1.png"
                                 title="Clínica Bem-Estar"
                                 description="Especializada em consultas de rotina e check-ups para toda a família."
                             />
                             <Dish
-                                image="https://placehold.co/300x300/F6620C/FFF?text=Fisio+Reabilitar"
+                                image="https://www.consultoriarr.com.br/wp-content/uploads/2019/10/img-abertura-de-clinicas-medicas-como-comecar.jpg"
                                 title="Fisio Reabilitar"
                                 description="Referência em fisioterapia, com foco em recuperação e tratamento de lesões."
                             />
                             <Dish
-                                image="https://placehold.co/300x300/F6620C/FFF?text=Laboratório+Vita"
+                                image="https://www.inspirali.com/app/uploads/2023/11/consultorio-medico.jpeg"
                                 title="Laboratório Vita"
                                 description="Oferece uma vasta gama de exames com resultados rápidos e precisos."
                             />
                             <Dish
-                                image="https://placehold.co/300x300/F6620C/FFF?text=Dermato+Avançada"
+                                image="https://empresasecooperativas.com.br/wp-content/uploads/2019/04/clinica-m%C3%A9dica-1024x535.jpg"
                                 title="Dermato Avançada"
                                 description="Clínica de dermatologia com os mais modernos tratamentos para pele e cabelo!"
                             />
@@ -238,16 +238,20 @@ const Home = () => {
 
                     </section>
                     <section id="testimonials">
-                        <img src="https://placehold.co/400x400/F6620C/FFF?text=Clinic" alt="" id="testimonials_chef" />
+                        <img src="https://meddoc.ie/wp-content/uploads/How-to-Open-a-Successful-Private-Clinic-of-Your-Own.jpg" alt="" id="testimonials_chef" style={{
+                            borderRadius: "20px"
+                        }}/>
                         <div id="testimonials_content">
                             <h2 className="section-title">Depoimentos</h2>
                             <h3 className="section-subtitle">O que os clientes falam sobre nós</h3>
                             <div id="feedbacks">
                                 <div className="feedback">
-                                    <img src="https://placehold.co/50x50/F6620C/FFF?text=RA" alt="" className="feedback-avatar" />
+                                    <img src="https://checkuplab.com.br/wp-content/uploads/2024/11/imagem-1-post-blog-cuidados-exames-preventivos-saude-do-homem-Check-Up-Lab.jpg" alt="" className="feedback-avatar" style={{
+                                        borderRadius: '10px'
+                                    }} />
                                     <div className="feedback-content">
                                         <p className="nome-star">
-                                            Cauan Dog
+                                            Cauan
                                             <span>
                                                 <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} />
                                             </span>
@@ -258,7 +262,9 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="feedback">
-                                    <img src="https://placehold.co/50x50/F6620C/FFF?text=NJ" alt="" className="feedback-avatar" />
+                                    <img src="https://img.freepik.com/fotos-kostenlos/friedlicher-alter-mann-im-ruhestand-in-einem-pflegeheim-der-im-bett-liegt_482257-26890.jpg?semt=ais_hybrid&w=740&q=80" alt="" className="feedback-avatar" style={{
+                                        borderRadius: '10px'
+                                    }}/>
                                     <div className="feedback-content">
                                         <p className="nome-star">
                                             Ricardo do Nada
@@ -279,16 +285,20 @@ const Home = () => {
                         <h2 className="section-title">Redes Sociais</h2>
                         <div id="medias">
                             <div className="social-media-content">
-                                <img src="https://placehold.co/5emx5em/F6620C/FFF?text=Insta" alt="" className="social-media-image" />
+                                <img src="https://img.freepik.com/vetores-gratis/instagram-logo_1199-122.jpg?semt=ais_incoming&w=740&q=80" alt="" className="social-media-image" style={{
+                                    borderRadius: '10px'
+                                }}/>
                                 <h3>Visite nosso instagram</h3>
                                 <h2 className="section-subtitle">esteja por dentro<br />das novidades</h2>
                                 <a href="https://www.instagram.com/icaromvz_/" target="_blank"><button className="button-pedido">Visitar</button></a>
                             </div>
                             <div className="social-media-content">
-                                <img src="https://placehold.co/5emx5em/F6620C/FFF?text=WhatsApp" alt="" className="social-media-image" />
+                                <img src="https://s2-techtudo.glbimg.com/qsIuHxZ_g2spsqzzh3jNDCft2WE=/0x0:620x395/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/1/I6jD4IToSd28BHUj0nrA/2013-11-07-whatsapp-e-o-mensageiro-de-maior-sucesso-atualmente.png" alt="" className="social-media-image" style={{
+                                    borderRadius: '10px'
+                                }}/>
                                 <h3>Entre em contato</h3>
                                 <h2 className="section-subtitle">receba promoções<br />exclusivas</h2>
-                                <a href="https://wa.me/5571992240721" target="_blank"><button className="button-pedido">Agendar Consulta</button></a>
+                                <a href="https://wa.me/557199940721" target="_blank"><button className="button-pedido">Agendar Consulta</button></a>
                             </div>
                         </div>
                     </section>
@@ -301,7 +311,7 @@ const Home = () => {
                         &copy; 2025 NATAD
                     </span>
                     <div className="social-midia-buttons">
-                        <a href="https://wa.me/5571992240721?text=Olá%20desejo%20fazer%20uma%20consulta." target="_blank">
+                        <a href="https://wa.me/5571994440721?text=Olá%20desejo%20fazer%20uma%20consulta." target="_blank">
                             <FontAwesomeIcon icon={faWhatsapp} />
                         </a>
                         <a href="https://www.instagram.com/icaromvz" target="_blank">
