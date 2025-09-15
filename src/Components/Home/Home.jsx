@@ -182,7 +182,7 @@ const Home = () => {
                                 <a href="https://wa.me/5571992440721" target="_blank">
                                     <FontAwesomeIcon icon={faWhatsapp} />
                                 </a>
-                                <a href="https://www.instagram.com/icaromvz_" target="_blank">
+                                <a href="https://www.instagram.com/icarvz_" target="_blank">
                                     <FontAwesomeIcon icon={faInstagram} />
                                 </a>
                             </div>
@@ -290,7 +290,7 @@ const Home = () => {
                                 }}/>
                                 <h3>Visite nosso instagram</h3>
                                 <h2 className="section-subtitle">esteja por dentro<br />das novidades</h2>
-                                <a href="https://www.instagram.com/icaromvz_/" target="_blank"><button className="button-pedido">Visitar</button></a>
+                                <a href="https://www.instagram.com/icarmvz_/" target="_blank"><button className="button-pedido">Visitar</button></a>
                             </div>
                             <div className="social-media-content">
                                 <img src="https://s2-techtudo.glbimg.com/qsIuHxZ_g2spsqzzh3jNDCft2WE=/0x0:620x395/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/1/I6jD4IToSd28BHUj0nrA/2013-11-07-whatsapp-e-o-mensageiro-de-maior-sucesso-atualmente.png" alt="" className="social-media-image" style={{
@@ -314,7 +314,7 @@ const Home = () => {
                         <a href="https://wa.me/5571994440721?text=Olá%20desejo%20fazer%20uma%20consulta." target="_blank">
                             <FontAwesomeIcon icon={faWhatsapp} />
                         </a>
-                        <a href="https://www.instagram.com/icaromvz" target="_blank">
+                        <a href="https://www.instagram.com/icmvz" target="_blank">
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
                     </div>
